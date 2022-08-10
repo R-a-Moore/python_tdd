@@ -12,3 +12,6 @@ class Calc():
     def calc_DoB(self, year, age):
         return year - age
 
+    def cm_m(self, cm):
+        return cm/100
+
