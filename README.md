@@ -72,3 +72,5 @@ class CalcTest(unittest.TestCase):
         self.assertEqual(self.calc_obj.calc_DoB(2022, 5012), 3012)
         self.assertEqual(self.calc_obj.calc_DoB(2000, -1990), 3990) # technically a fail, date of birth can't be negative
 ```
+
+Pytest assertions: [python unittest assertions](https://kapeli.com/cheat_sheets/Python_unittest_Assertions.docset/Contents/Resources/Documents/index)
