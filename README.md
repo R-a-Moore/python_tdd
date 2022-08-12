@@ -8,8 +8,8 @@ TDD runs in a *RED*, *GREEN*, *BLUE* cycle (think uncle bob's dev hats).
 
 ![TDD](https://user-images.githubusercontent.com/47668244/183911093-4fbdbb4d-4a82-43f1-a31f-ecb4087ee930.png)
 
-- In the *RED* stage code is written which has yet to be tested.
-- In the *GREEN* stage the code is tested, and iterated upon until it passes the (particular software requirement) test case.
+- In the *RED* (fail testing) stage where tests are written which are based around requirements, yet due to code not being written should fail by design.
+- In the *GREEN* (pass testing) stage where code is written and tested upon, being iterated upon until it passes the (particular software requirement) test cases.
 - Finally in the *BLUE* stage the code is refactored. Edited wihout changing functionality or success case for the tests, so that it completes as few computation, carries out in as few lines as possible, and follows appropriate naming conventions (etc).
 
 These three stages of the cycle are continued over and over throughout the development.
